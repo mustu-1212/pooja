@@ -75,9 +75,9 @@ export const portfolioImages: PortfolioImage[] = [
     category: "modeling"
   },
   {
-    src: image8,
-    alt: "Contemporary ethnic wear with beautiful paisley patterns",
-    title: "Contemporary Grace",
+    src: newModernEthnicImage,
+    alt: "Luxury brand collaboration featuring elegant styling and premium fashion",
+    title: "Luxury Brand Collaboration",
     description: "Fashion Collaboration",
     category: "collabs"
   },
@@ -117,9 +117,9 @@ export const portfolioImages: PortfolioImage[] = [
     category: "modeling"
   },
   {
-    src: newModernEthnicImage,
-    alt: "Luxury brand collaboration featuring elegant styling and premium fashion",
-    title: "Luxury Brand Collaboration",
+    src: image14,
+    alt: "Sophisticated black lace dress with gold accessories",
+    title: "Sophisticated Style",
     description: "Brand Partnership",
     category: "collabs"
   },
