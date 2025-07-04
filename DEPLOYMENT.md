@@ -40,13 +40,14 @@ Your portfolio is now ready for Vercel deployment! Here's how to deploy:
 
 The project includes:
 
-✅ **vercel.json** - Vercel deployment configuration
-✅ **build-vercel.js** - Custom build script for Vercel
+✅ **vercel.json** - Vercel deployment configuration (fixed for compatibility)
 ✅ **Static site optimization** - All images and assets properly bundled
 ✅ **Contact form** - Uses mailto links (works without backend)
 ✅ **Responsive design** - Works on all devices
 ✅ **Theme switching** - Royal/Classic mode toggle
 ✅ **Portfolio gallery** - All 16 images with lightbox functionality
+
+**Note:** The vercel.json has been updated to use `rewrites` instead of `routes` for better compatibility with Vercel's current configuration requirements.
 
 ## Build Output
 
