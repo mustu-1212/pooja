@@ -20,6 +20,9 @@ import image15 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_07824103_1751
 // New hero image
 import newHeroImage from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_701e744a_1751622410875.jpg";
 
+// New modern ethnic image
+import newModernEthnicImage from "@assets/new.jpg";
+
 export interface PortfolioImage {
   src: string;
   alt: string;
@@ -30,7 +33,7 @@ export interface PortfolioImage {
 
 export const portfolioImages: PortfolioImage[] = [
   {
-    src: image2,
+    src: newModernEthnicImage,
     alt: "Stylish portrait with modern ethnic wear and traditional accessories",
     title: "Modern Ethnic",
     description: "Fashion Portfolio",
