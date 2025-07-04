@@ -1,0 +1,77 @@
+Build a modern, luxurious and responsive portfolio website for my client, a digital creator, Gondhi song artist, influencer & model.
+
+🎨 Two switchable color modes:
+
+Royal Blue + Gold (Royal Mode)
+
+Deep Burgundy + Rich Emerald (Classic Mode)
+
+🏗 Structure & content order:
+
+Homepage: Hero section with her name, elegant short intro quote, big portrait image & social media icons.
+
+Portfolio gallery: Grid or masonry gallery with about 20 images (use only the images I upload). Hover effects, lightbox to open full images.
+
+About / Info section: Short bio mentioning she is a digital creator, Gondhi song artist, influencer, doing collaborations, sponsorships, brand endorsements & modeling.
+
+Highlight section: One or two big featured banners/images.
+
+Contact form: Simple beautiful form (name, email, message) that sends mail via mailto:95poojamarkam@gmail.com.
+
+Footer: Copyright + Instagram & YouTube links.
+
+✏ Intro text example to include on homepage:
+
+"Inspiring hearts through music, creativity, and authentic expression. Let’s collaborate and create something beautiful together."
+
+⚙ Styling & features:
+
+Modern clean fonts & large elegant headings.
+
+Smooth scrolling & subtle animations on scroll.
+
+Toggle button to switch between Royal & Classic modes.
+
+Lightbox effect on gallery click.
+
+Parallax on hero or featured banners.
+
+Glassmorphic / card style contact form.
+
+Social media icons linking to:
+
+Instagram: poojamarkam308
+
+YouTube: Poojamarkamvlog
+
+⚡ Extra magic:
+
+Hover highlight on portfolio categories (Modeling, Music, Collabs).
+
+Animated counters (e.g., “20+ Collaborations”, “50+ Stage shows”).
+
+Gradient overlays on hero & gallery.
+
+Elegant call-to-action buttons: “Collaborate”, “Book now”.
+
+🚀 Technical / deployment (important):
+
+Build in a structure ready to deploy to Vercel:
+
+Use React (or Next.js) project structure
+
+Put source code in /src
+
+Add vercel.json config if needed
+
+Export as static site or proper Next.js app
+
+Store and serve uploaded images locally inside the project (e.g., /public/images/)
+
+Make sure the build can be pushed to GitHub, then deployed to Vercel by connecting the repo.
+
+✉ Contact form: use simple mailto → mailto:95poojamarkam@gmail.com
+
+✅ Goal: Elegant, professional site that looks clean and wonderful, impresses brands & sponsors, ready to deploy live on Vercel from Replit.
+
+📦 Important: use only my uploaded images for the gallery and featured sections.
