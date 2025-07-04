@@ -117,10 +117,10 @@ export const portfolioImages: PortfolioImage[] = [
     category: "modeling"
   },
   {
-    src: image14,
-    alt: "Sophisticated black lace dress with gold accessories",
-    title: "Sophisticated Style",
-    description: "Brand Collaboration",
+    src: newModernEthnicImage,
+    alt: "Luxury brand collaboration featuring elegant styling and premium fashion",
+    title: "Luxury Brand Collaboration",
+    description: "Brand Partnership",
     category: "collabs"
   },
   {
