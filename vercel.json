@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "buildCommand": "node build-vercel.js",
+  "outputDirectory": "dist/public",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
