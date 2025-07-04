@@ -33,7 +33,7 @@ export interface PortfolioImage {
 
 export const portfolioImages: PortfolioImage[] = [
   {
-    src: newModernEthnicImage,
+    src: image2,
     alt: "Stylish portrait with modern ethnic wear and traditional accessories",
     title: "Modern Ethnic",
     description: "Fashion Portfolio",
@@ -75,9 +75,9 @@ export const portfolioImages: PortfolioImage[] = [
     category: "modeling"
   },
   {
-    src: newModernEthnicImage,
-    alt: "Luxury brand collaboration featuring elegant styling and premium fashion",
-    title: "Luxury Brand Collaboration",
+    src: image8,
+    alt: "Contemporary ethnic wear with beautiful paisley patterns",
+    title: "Contemporary Grace",
     description: "Fashion Collaboration",
     category: "collabs"
   },
