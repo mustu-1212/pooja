@@ -52,7 +52,7 @@ export default function Stats() {
   const stats = [
     { value: 20, label: "Collaborations" },
     { value: 50, label: "Stage Shows" },
-    { value: 100, label: "Followers", suffix: "K+" }
+    { value: 50, label: "Followers", suffix: "K+" }
   ];
 
   return (

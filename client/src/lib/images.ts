@@ -6,6 +6,17 @@ import image4 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_660bc936_17516
 import image5 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_54f7eecf_1751606866906.jpg";
 import image6 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_7a3d4e2e_1751606871530.jpg";
 
+// Additional new images
+import image7 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_9d60dd27_1751622204582.jpg";
+import image8 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_701e744a_1751622218658.jpg";
+import image9 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_777bbb5a_1751622218658.jpg";
+import image10 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_871abdfe_1751622218658.jpg";
+import image11 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_1217e66d_1751622218659.jpg";
+import image12 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_03115c82_1751622218659.jpg";
+import image13 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_7589e066_1751622218659.jpg";
+import image14 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_45088e98_1751622218660.jpg";
+import image15 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_07824103_1751622218660.jpg";
+
 export interface PortfolioImage {
   src: string;
   alt: string;
@@ -56,6 +67,69 @@ export const portfolioImages: PortfolioImage[] = [
     title: "Creative Journey",
     description: "Music & Creativity",
     category: "music"
+  },
+  {
+    src: image7,
+    alt: "Stunning traditional wear with silver jewelry and elegant styling",
+    title: "Silver Glamour",
+    description: "Traditional Modeling",
+    category: "modeling"
+  },
+  {
+    src: image8,
+    alt: "Contemporary ethnic wear with beautiful paisley patterns",
+    title: "Contemporary Grace",
+    description: "Fashion Collaboration",
+    category: "collabs"
+  },
+  {
+    src: image9,
+    alt: "Elegant black evening dress with sophisticated styling",
+    title: "Evening Elegance",
+    description: "Formal Wear Portfolio",
+    category: "modeling"
+  },
+  {
+    src: image10,
+    alt: "Bright outdoor shoot with temple architecture backdrop",
+    title: "Cultural Heritage",
+    description: "Location Shoot",
+    category: "modeling"
+  },
+  {
+    src: image11,
+    alt: "Festive celebration portrait in colorful traditional venue",
+    title: "Celebration Moments",
+    description: "Event Photography",
+    category: "music"
+  },
+  {
+    src: image12,
+    alt: "Casual contemporary portrait with peace sign gesture",
+    title: "Youthful Spirit",
+    description: "Lifestyle Portfolio",
+    category: "modeling"
+  },
+  {
+    src: image13,
+    alt: "Vintage blue gingham dress with charming retro styling",
+    title: "Retro Chic",
+    description: "Fashion Shoot",
+    category: "modeling"
+  },
+  {
+    src: image14,
+    alt: "Sophisticated black lace dress with gold accessories",
+    title: "Sophisticated Style",
+    description: "Brand Collaboration",
+    category: "collabs"
+  },
+  {
+    src: image15,
+    alt: "Romantic white dress with pink flowers in artistic setting",
+    title: "Romantic Bloom",
+    description: "Creative Portrait",
+    category: "modeling"
   }
 ];
 

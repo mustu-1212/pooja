@@ -9,12 +9,17 @@ import Footer from "@/components/Footer";
 import Lightbox from "@/components/Lightbox";
 
 export default function Home() {
+  const handleImageClick = (image: any) => {
+    const event = new CustomEvent('openLightbox', { detail: image });
+    window.dispatchEvent(event);
+  };
+
   return (
     <div className="min-h-screen">
       <Navigation />
       <Hero />
       <Stats />
-      <Portfolio />
+      <Portfolio onImageClick={handleImageClick} />
       <About />
       <Highlight />
       <Contact />
