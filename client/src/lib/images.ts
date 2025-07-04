@@ -17,6 +17,9 @@ import image13 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_7589e066_1751
 import image14 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_45088e98_1751622218660.jpg";
 import image15 from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_07824103_1751622218660.jpg";
 
+// New hero image
+import newHeroImage from "@assets/WhatsApp Image 2025-07-03 at 18.02.38_701e744a_1751622410875.jpg";
+
 export interface PortfolioImage {
   src: string;
   alt: string;
@@ -26,13 +29,6 @@ export interface PortfolioImage {
 }
 
 export const portfolioImages: PortfolioImage[] = [
-  {
-    src: image1,
-    alt: "Elegant portrait showcasing traditional Indian attire with intricate embroidery",
-    title: "Traditional Elegance",
-    description: "Modeling Portfolio",
-    category: "modeling"
-  },
   {
     src: image2,
     alt: "Stylish portrait with modern ethnic wear and traditional accessories",
@@ -130,10 +126,17 @@ export const portfolioImages: PortfolioImage[] = [
     title: "Romantic Bloom",
     description: "Creative Portrait",
     category: "modeling"
+  },
+  {
+    src: image1,
+    alt: "Previous hero image - Elegant portrait showcasing traditional Indian attire",
+    title: "Heritage Beauty",
+    description: "Traditional Portfolio",
+    category: "modeling"
   }
 ];
 
-export const heroImage = image1;
+export const heroImage = newHeroImage;
 export const aboutImage = image4;
 export const featuredImage1 = image2;
 export const featuredImage2 = image6;
