@@ -141,5 +141,5 @@ export const portfolioImages: PortfolioImage[] = [
 
 export const heroImage = newHeroImage;
 export const aboutImage = image4;
-export const featuredImage1 = image2;
+export const featuredImage1 = newModernEthnicImage;
 export const featuredImage2 = image6;
